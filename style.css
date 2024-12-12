@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .tall-section {
+    background-color: #f0f0f0;
+    height: 1000px; /* Makes the section tall */
+  }
+  
+  .navbar {
+    background-color: #333;
+    color: white;
+  }
+  
+  .navbar-brand {
+    color: white;
+  }
+  
+  .navbar-nav li a {
+    color: white !important;
+  }
+  
+  @media (max-width: 767px) {
+    .navbar-nav {
+      background-color: #333;
+      position: absolute;
+      width: 100%;
+      top: 50px; /* Ensure the dropdown menu appears below the navbar */
+    }
+  
+    .navbar-nav li {
+      text-align: center;
+    }
+  
+    .tall-section {
+      background-color: #f0f0f0;
+    }
+  }
+  
